@@ -4,7 +4,9 @@
 The second heuristic-
  a. Uses the pythagorean theorem to check the straight distance across weighted with *10. 
 	heurisic=10*(math.sqrt((goalnode.x-current_location.x)**2+(goalnode.x-current_location.x)**2
+ 
  b. I knew this would underestimate the solution. It is a straight line distance. It also is weighted less than 14 which is the diagonal distance, even in the best case grid this heuristic will underestimate. Because of an initial problem in my code I need to underestimate by about 30 units.
+ 
  c.My solution sets the initial start node f.cost 28 higher than it should be. This is a problem I have been trying to figure out, but for now I need to make sure the heuristic is low. In manhattan, the optimal solution is not always found with my code implementation. With my “pythagorean” it is nearly found but the cost is an overestimate, due to problems during the first node traversal. Because the initial node has an uncharacteristic cost it causes the second node of the solution to often times be wrong. It then corrects itself. There are also comments in the code to try and help explain. 
  
  
