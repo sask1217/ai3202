@@ -13,6 +13,7 @@ Pythagorean
 -31 squares traversed
 -missed 2nd node
 Descending order
+
 9 0					
 8 0					
 7 1					
@@ -31,6 +32,7 @@ World1.txt
 Manhattan 
 18 squares
 suboptimal
+
 9 0							
 8 0							
 7 0							
