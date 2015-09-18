@@ -47,7 +47,7 @@ suboptimal
 1 6
 0 7
 
-
+'''
 World2.txt
 Py
 -25 squares
@@ -83,3 +83,4 @@ missed 2nd node
 1 6 *
 0 7
 
+'''
