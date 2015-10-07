@@ -1,5 +1,5 @@
 # Sam Skolnekovich
-# HW4 
+# HW5 
 # 10/07/15
 '''
 ' Calculating this with different values for error changes the program a great deal. 
